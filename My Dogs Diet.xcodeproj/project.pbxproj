@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F26D5FD41C2AFBB3004267D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D5FD31C2AFBB3004267D0 /* AppDelegate.swift */; };
+		F26D5FD61C2AFBB3004267D0 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D5FD51C2AFBB3004267D0 /* RootViewController.swift */; };
+		F26D5FD81C2AFBB3004267D0 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D5FD71C2AFBB3004267D0 /* DataViewController.swift */; };
+		F26D5FDA1C2AFBB3004267D0 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D5FD91C2AFBB3004267D0 /* ModelController.swift */; };
+		F26D5FDD1C2AFBB3004267D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26D5FDB1C2AFBB3004267D0 /* Main.storyboard */; };
+		F26D5FDF1C2AFBB3004267D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26D5FDE1C2AFBB3004267D0 /* Assets.xcassets */; };
+		F26D5FE21C2AFBB3004267D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26D5FE01C2AFBB3004267D0 /* LaunchScreen.storyboard */; };
+		F26D5FED1C2AFBB3004267D0 /* My_Dogs_DietTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D5FEC1C2AFBB3004267D0 /* My_Dogs_DietTests.swift */; };
+		F26D5FF81C2AFBB3004267D0 /* My_Dogs_DietUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D5FF71C2AFBB3004267D0 /* My_Dogs_DietUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26D5FE91C2AFBB3004267D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26D5FC81C2AFBB3004267D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26D5FCF1C2AFBB3004267D0;
+			remoteInfo = "My Dogs Diet";
+		};
+		F26D5FF41C2AFBB3004267D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26D5FC81C2AFBB3004267D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26D5FCF1C2AFBB3004267D0;
+			remoteInfo = "My Dogs Diet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F26D5FD01C2AFBB3004267D0 /* My Dogs Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Dogs Diet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D5FD31C2AFBB3004267D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F26D5FD51C2AFBB3004267D0 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F26D5FD71C2AFBB3004267D0 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		F26D5FD91C2AFBB3004267D0 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		F26D5FDC1C2AFBB3004267D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26D5FDE1C2AFBB3004267D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26D5FE11C2AFBB3004267D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F26D5FE31C2AFBB3004267D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26D5FE81C2AFBB3004267D0 /* My Dogs DietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Dogs DietTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D5FEC1C2AFBB3004267D0 /* My_Dogs_DietTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Dogs_DietTests.swift; sourceTree = "<group>"; };
+		F26D5FEE1C2AFBB3004267D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26D5FF31C2AFBB3004267D0 /* My Dogs DietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Dogs DietUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D5FF71C2AFBB3004267D0 /* My_Dogs_DietUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Dogs_DietUITests.swift; sourceTree = "<group>"; };
+		F26D5FF91C2AFBB3004267D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26D5FCD1C2AFBB3004267D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26D5FE51C2AFBB3004267D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26D5FF01C2AFBB3004267D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26D5FC71C2AFBB3004267D0 = {
+			isa = PBXGroup;
+			children = (
+				F26D5FD21C2AFBB3004267D0 /* My Dogs Diet */,
+				F26D5FEB1C2AFBB3004267D0 /* My Dogs DietTests */,
+				F26D5FF61C2AFBB3004267D0 /* My Dogs DietUITests */,
+				F26D5FD11C2AFBB3004267D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26D5FD11C2AFBB3004267D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26D5FD01C2AFBB3004267D0 /* My Dogs Diet.app */,
+				F26D5FE81C2AFBB3004267D0 /* My Dogs DietTests.xctest */,
+				F26D5FF31C2AFBB3004267D0 /* My Dogs DietUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26D5FD21C2AFBB3004267D0 /* My Dogs Diet */ = {
+			isa = PBXGroup;
+			children = (
+				F26D5FD31C2AFBB3004267D0 /* AppDelegate.swift */,
+				F26D5FD51C2AFBB3004267D0 /* RootViewController.swift */,
+				F26D5FD71C2AFBB3004267D0 /* DataViewController.swift */,
+				F26D5FD91C2AFBB3004267D0 /* ModelController.swift */,
+				F26D5FDB1C2AFBB3004267D0 /* Main.storyboard */,
+				F26D5FDE1C2AFBB3004267D0 /* Assets.xcassets */,
+				F26D5FE01C2AFBB3004267D0 /* LaunchScreen.storyboard */,
+				F26D5FE31C2AFBB3004267D0 /* Info.plist */,
+			);
+			path = "My Dogs Diet";
+			sourceTree = "<group>";
+		};
+		F26D5FEB1C2AFBB3004267D0 /* My Dogs DietTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26D5FEC1C2AFBB3004267D0 /* My_Dogs_DietTests.swift */,
+				F26D5FEE1C2AFBB3004267D0 /* Info.plist */,
+			);
+			path = "My Dogs DietTests";
+			sourceTree = "<group>";
+		};
+		F26D5FF61C2AFBB3004267D0 /* My Dogs DietUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F26D5FF71C2AFBB3004267D0 /* My_Dogs_DietUITests.swift */,
+				F26D5FF91C2AFBB3004267D0 /* Info.plist */,
+			);
+			path = "My Dogs DietUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26D5FCF1C2AFBB3004267D0 /* My Dogs Diet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26D5FFC1C2AFBB3004267D0 /* Build configuration list for PBXNativeTarget "My Dogs Diet" */;
+			buildPhases = (
+				F26D5FCC1C2AFBB3004267D0 /* Sources */,
+				F26D5FCD1C2AFBB3004267D0 /* Frameworks */,
+				F26D5FCE1C2AFBB3004267D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Dogs Diet";
+			productName = "My Dogs Diet";
+			productReference = F26D5FD01C2AFBB3004267D0 /* My Dogs Diet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26D5FE71C2AFBB3004267D0 /* My Dogs DietTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26D5FFF1C2AFBB3004267D0 /* Build configuration list for PBXNativeTarget "My Dogs DietTests" */;
+			buildPhases = (
+				F26D5FE41C2AFBB3004267D0 /* Sources */,
+				F26D5FE51C2AFBB3004267D0 /* Frameworks */,
+				F26D5FE61C2AFBB3004267D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26D5FEA1C2AFBB3004267D0 /* PBXTargetDependency */,
+			);
+			name = "My Dogs DietTests";
+			productName = "My Dogs DietTests";
+			productReference = F26D5FE81C2AFBB3004267D0 /* My Dogs DietTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F26D5FF21C2AFBB3004267D0 /* My Dogs DietUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26D60021C2AFBB3004267D0 /* Build configuration list for PBXNativeTarget "My Dogs DietUITests" */;
+			buildPhases = (
+				F26D5FEF1C2AFBB3004267D0 /* Sources */,
+				F26D5FF01C2AFBB3004267D0 /* Frameworks */,
+				F26D5FF11C2AFBB3004267D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26D5FF51C2AFBB3004267D0 /* PBXTargetDependency */,
+			);
+			name = "My Dogs DietUITests";
+			productName = "My Dogs DietUITests";
+			productReference = F26D5FF31C2AFBB3004267D0 /* My Dogs DietUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26D5FC81C2AFBB3004267D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "James Johnson";
+				TargetAttributes = {
+					F26D5FCF1C2AFBB3004267D0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F26D5FE71C2AFBB3004267D0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F26D5FCF1C2AFBB3004267D0;
+					};
+					F26D5FF21C2AFBB3004267D0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F26D5FCF1C2AFBB3004267D0;
+					};
+				};
+			};
+			buildConfigurationList = F26D5FCB1C2AFBB3004267D0 /* Build configuration list for PBXProject "My Dogs Diet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26D5FC71C2AFBB3004267D0;
+			productRefGroup = F26D5FD11C2AFBB3004267D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26D5FCF1C2AFBB3004267D0 /* My Dogs Diet */,
+				F26D5FE71C2AFBB3004267D0 /* My Dogs DietTests */,
+				F26D5FF21C2AFBB3004267D0 /* My Dogs DietUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26D5FCE1C2AFBB3004267D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26D5FE21C2AFBB3004267D0 /* LaunchScreen.storyboard in Resources */,
+				F26D5FDF1C2AFBB3004267D0 /* Assets.xcassets in Resources */,
+				F26D5FDD1C2AFBB3004267D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26D5FE61C2AFBB3004267D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26D5FF11C2AFBB3004267D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26D5FCC1C2AFBB3004267D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26D5FD61C2AFBB3004267D0 /* RootViewController.swift in Sources */,
+				F26D5FDA1C2AFBB3004267D0 /* ModelController.swift in Sources */,
+				F26D5FD81C2AFBB3004267D0 /* DataViewController.swift in Sources */,
+				F26D5FD41C2AFBB3004267D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26D5FE41C2AFBB3004267D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26D5FED1C2AFBB3004267D0 /* My_Dogs_DietTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26D5FEF1C2AFBB3004267D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26D5FF81C2AFBB3004267D0 /* My_Dogs_DietUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26D5FEA1C2AFBB3004267D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26D5FCF1C2AFBB3004267D0 /* My Dogs Diet */;
+			targetProxy = F26D5FE91C2AFBB3004267D0 /* PBXContainerItemProxy */;
+		};
+		F26D5FF51C2AFBB3004267D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26D5FCF1C2AFBB3004267D0 /* My Dogs Diet */;
+			targetProxy = F26D5FF41C2AFBB3004267D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F26D5FDB1C2AFBB3004267D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26D5FDC1C2AFBB3004267D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F26D5FE01C2AFBB3004267D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26D5FE11C2AFBB3004267D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26D5FFA1C2AFBB3004267D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F26D5FFB1C2AFBB3004267D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26D5FFD1C2AFBB3004267D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Dogs Diet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J3-Enterprise.My-Dogs-Diet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F26D5FFE1C2AFBB3004267D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Dogs Diet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J3-Enterprise.My-Dogs-Diet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F26D60001C2AFBB3004267D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My Dogs DietTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J3-Enterprise.My-Dogs-DietTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Dogs Diet.app/My Dogs Diet";
+			};
+			name = Debug;
+		};
+		F26D60011C2AFBB3004267D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My Dogs DietTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J3-Enterprise.My-Dogs-DietTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Dogs Diet.app/My Dogs Diet";
+			};
+			name = Release;
+		};
+		F26D60031C2AFBB3004267D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My Dogs DietUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J3-Enterprise.My-Dogs-DietUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Dogs Diet";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F26D60041C2AFBB3004267D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My Dogs DietUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "J3-Enterprise.My-Dogs-DietUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Dogs Diet";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26D5FCB1C2AFBB3004267D0 /* Build configuration list for PBXProject "My Dogs Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26D5FFA1C2AFBB3004267D0 /* Debug */,
+				F26D5FFB1C2AFBB3004267D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26D5FFC1C2AFBB3004267D0 /* Build configuration list for PBXNativeTarget "My Dogs Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26D5FFD1C2AFBB3004267D0 /* Debug */,
+				F26D5FFE1C2AFBB3004267D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F26D5FFF1C2AFBB3004267D0 /* Build configuration list for PBXNativeTarget "My Dogs DietTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26D60001C2AFBB3004267D0 /* Debug */,
+				F26D60011C2AFBB3004267D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F26D60021C2AFBB3004267D0 /* Build configuration list for PBXNativeTarget "My Dogs DietUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26D60031C2AFBB3004267D0 /* Debug */,
+				F26D60041C2AFBB3004267D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26D5FC81C2AFBB3004267D0 /* Project object */;
+}
