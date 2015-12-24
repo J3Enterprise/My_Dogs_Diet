@@ -10,7 +10,7 @@ import UIKit
 
 class DataViewController: UIViewController {
 
-    let dogNames = ["Bosco", "Max", "Haha", "Pluto", "Brutus"]
+    let dogNames = ["Bosco", "Max", "Haha", "Pluto", "Brutus", "Douglas"]
     
     @IBAction func dogButtonPressed(sender: AnyObject) {
         let randomValue = Int(arc4random_uniform(UInt32(dogNames.count)))
