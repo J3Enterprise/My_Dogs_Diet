@@ -10,10 +10,19 @@ import UIKit
 
 class DataViewController: UIViewController {
 
+    let dogNames = ["Bosco", "Max", "Haha"]
+    
+    @IBAction func dogButtonPressed(sender: AnyObject) {
+        let randomValue = Int(arc4random_uniform(UInt32(dogNames.count)))
+        
+        self.dogName.text = self.dogNames[randomValue]
+    }
+    
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
 
-
+    @IBOutlet weak var dogName: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,8 +36,11 @@ class DataViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         self.dataLabel!.text = dataObject
+        self.dogName!.text = "Bosco"
+        
     }
 
+    
 
 }
 
